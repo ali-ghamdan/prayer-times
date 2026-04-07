@@ -12,15 +12,15 @@ A TypeScript library for calculating Islamic prayer times based on geographic co
 ## Installation
 
 ```bash
-npm install prayertimes
-yarn add prayertimes
-pnpm install prayertimes
+npm install @alighamdan/prayertimes
+yarn add @alighamdan/prayertimes
+pnpm install @alighamdan/prayertimes
 ```
 
 ## Usage
 
 ```typescript
-import prayerTimes from "prayertimes";
+import prayerTimes from "@alighamdan/prayertimes";
 
 // Calculate prayer times for a specific date and location
 const times = prayerTimes(
