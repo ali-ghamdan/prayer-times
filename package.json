@@ -1,15 +1,24 @@
 {
-  "name": "prayer-times",
+  "name": "prayertimes",
   "version": "1.0.0",
   "description": "get real times of salah with its end time",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["adhan", "prayer-times", "pray", "times", "islam"],
   "author": "ali ghamdan",
   "license": "ISC",
   "packageManager": "pnpm@10.33.0",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/ali-ghamdan/prayer-times.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ali-ghamdan/prayer-times/issues"
+  },
+  "homepage": "https://github.com/ali-ghamdan/prayer-times#readme",
   "dependencies": {
     "suncalc": "^1.9.0"
   },
